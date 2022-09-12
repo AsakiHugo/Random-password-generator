@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.randomPassword {
+    width: 180px;
+    overflow: hidden;
+}
+
+.randomPassword .randomDisplay {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    color: #fff;
+    font-size: 17px;
+}
+
+.randomPassword .randomDisplay input {
+    width: 100%;
+    background-color: #303030;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.randomPassword .randomDisplay i {
+    position: absolute;    
+    top: 10px;
+    right: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+.randomPassword .input_btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e5ff1f;
+    border-radius: 5px;
+    border: 1px solid rgb(214, 209, 209);
+    transition: .3s ease;
+}
+
+.randomPassword .input_btn:active {
+    transform: scale(.9);
+}
+
+.randomPassword .input_btn:hover {
+    background-color: rgb(12, 227, 8);
+}
